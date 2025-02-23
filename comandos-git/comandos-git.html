@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Comandos em Git</title>
+</head>
+<body style="font-size: 3em;">
+    <h1>Principais comandos em git</h1>
+    <h2>Configura o git</h2>
+    <ol>
+        <li>Configura o nome</li>
+        <ul>
+            <li>git config --golbal user.name "Matheus Nunes"</li>
+        </ul>
+        <li>Configura o e-mail</li>
+        <ul>
+            <li>git config --global user.amail "matheus.brisanet@gmail.com</li>
+        </ul>
+    </ol>
+    <h2>Indentificar usuario</h2>
+    <ol>
+        <li>git config user.name</li>
+        <li>git config user.amil</li>
+    </ol>
+    <h2>Iniciando um Repositório</h2>
+    <p>Usamos o comando: git init</p> <!--Com isso você iniciando um repositório dessa pasta que digitou git init-->
+    <ol>
+        <li>Verificar o estatos da pasta</li>
+        <ul>
+            <li>git status</li>
+        </ul>
+        <li>Vericar usuario que realizou alterações</li>
+        <ul>
+            <li>git log</li>
+        </ul>
+    </ol>
+    <h2>Prepara para commit</h2>
+    <ol>
+        <li>Adicionar um arquivo</li>
+        <ul>
+            <li>git add apasta.html</li>
+        </ul>
+        <li>Adicionar todos os arquivos</li>
+        <ul>
+            <li>git add .</li>
+        </ul>
+    </ol>
+    <ol>
+        <li>commit em  uma pasta</li>
+        <ul>
+            <li>git commit  index.html -m "teste com o commit"</li>
+        </ul>
+        <li>commit em varias pastas</li>
+        <ul>
+            <li>git commit -m "descreva quais são as alterações por pasta BLZ."</li>
+        </ul>
+    </ol>
+    <h2>Comandos para o push</h2>
+    <ol>
+        <li>Para a branch</li>
+        <ul>
+            <li>git branch -M main</li>
+        </ul>
+        <li>Para a conta do GitHub</li>
+        <ul>
+            <li>git remote add origin git@github.com:nunes/teste_git.git </li>
+        </ul>
+        <li>Para o Push</li>
+        <ul>
+            <li>git push</li>
+            <li>git push -u origin main</li>
+        </ul>
+    </ol>
+    <ol>O git pull
+        <li>git pull, usar para puxar qualquer alterações feita por outra pessoas</li>
+    </ol>
+    <!--Próxima aula é a 12-->
+</body>
+</html>
